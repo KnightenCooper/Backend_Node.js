@@ -42,9 +42,6 @@ const requestHandler = (req, res) => {
         return res.end();
         });
 
-    fs.appendFileSync('users.txt', '</li></li>');
-
-
 
   }
   // Send a HTML response with some "Page not found text
